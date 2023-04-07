@@ -21,13 +21,19 @@ export default function Menu() {
             <Nav.Link>
               {' '}
               <Link className="text-decoration-none text-white" to="/barChart">
-                Bar Chart
+                BarChart
               </Link>
             </Nav.Link>
             <Nav.Link>
               {' '}
               <Link className="text-decoration-none text-white" to="/pieChart">
-                Pie Chart
+                PieChart
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/lineChart">
+                LineChart
               </Link>
             </Nav.Link>
           </Nav>

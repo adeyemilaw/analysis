@@ -63,8 +63,8 @@ const PieChart = () => {
 
     return (
            
-                <div class="chart-container">
-                    <canvas ref={chartRef}/>;
+                <div class="chart-container pie-h">
+                    <canvas className='dchart' ref={chartRef}/>
                 </div>
            
     )

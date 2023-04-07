@@ -5,6 +5,7 @@ import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 import Home from './Page/Home';
 import BarChart from './Page/BarChart';
 import PieChart from './Page/PieChart';
+import LineChart from './Page/LineChart';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/BarChart" element={<BarChart />} />
-          <Route path="/pieChart" element={<PieChart />} />
+          <Route path="/PieChart" element={<PieChart />} />
+          <Route path="/LineChart" element={<LineChart />} />
           {/* <Route path="*" element={<Error />} /> */}
         </Routes>
       </BrowserRouter>
@@ -22,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

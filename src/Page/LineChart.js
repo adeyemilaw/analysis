@@ -3,15 +3,16 @@ import PieChartJS from '../ChartJS/ChatjsPie';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import HighChartjsPie from '../HighChartJS/HighChartjsPie';
+import HighChartjsLine from '../HighChartJS/HighChartjsLine';
+import ChartjsLine from '../ChartJS/ChartjsLine';
 
-function PieChart() {
+function LineChart() {
   return (
     <Container>
     <Row className='bg-light my-5 w-75 m-auto'>
         <Col>
         <h2 className='text-center'>ChartJS Chart for the Data</h2>
-        <PieChartJS />
+            <ChartjsLine />
         </Col>
     </Row>
     <hr />
@@ -19,7 +20,7 @@ function PieChart() {
     <Row className=' my-5'>
         <Col>
         <h2 className='text-center'>HighchartJS Chart for the Data</h2>
-           <HighChartjsPie />
+           <HighChartjsLine />
         </Col>
     </Row>
 
@@ -28,4 +29,4 @@ function PieChart() {
   )
 }
 
-export default PieChart
+export default LineChart

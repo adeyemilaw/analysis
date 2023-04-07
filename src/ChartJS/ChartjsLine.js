@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import jsonData from '../data.json'; // import your JSON file here
 
-const BarChartJS = () => {
+const ChartjsLine = () => {
   const chartRef = useRef(null);
   const chartInstanceRef = useRef(null); // keep a reference to the chart instance
 
@@ -15,14 +15,14 @@ const BarChartJS = () => {
     }
 
     chartInstanceRef.current = new Chart(chartCtx, {
-      type: 'bar',
+      type: 'line',
       data: {
         labels: jsonData.labels,
         datasets: [
           {
             label: 'Population',
             data: jsonData.data,
-            backgroundColor: 'rgb(100, 10, 12)',
+            backgroundColor: 'dodgerblue',
             borderColor: 'rgba(255, 99, 132, 1)',
             borderWidth: 1,
           },
@@ -39,12 +39,12 @@ const BarChartJS = () => {
   }, []);
 
   return (
-        <div className='my-3'>
+        <div className='my-3  p-3'>
           <div className='text-center'>
-            <h2>ChartJS Chart for the Data</h2>
+            
           </div>
           <div class="chart-container">
-            <canvas ref={chartRef}/>;
+            <canvas ref={chartRef}/>
         </div>
         </div>
         
@@ -52,4 +52,4 @@ const BarChartJS = () => {
 )
 };
 
-export default BarChartJS;
+export default ChartjsLine;
