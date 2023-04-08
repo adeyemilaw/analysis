@@ -1,8 +1,11 @@
 import React from 'react'
+import Tables from '../Component/DataTable'
 
 function Home() {
   return (
-    <div>Home Page</div>
+    <div>
+      <Tables />
+    </div>
   )
 }
 
