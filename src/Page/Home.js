@@ -1,10 +1,12 @@
 import React from 'react'
-import Tables from '../Component/DataTable'
+import GoogleForm from '../Component/GoogleForm'
+// import Tables from '../Component/DataTable'
 
 function Home() {
   return (
     <div>
-      <Tables />
+      <GoogleForm />
+      {/* <Tables /> */}
     </div>
   )
 }
