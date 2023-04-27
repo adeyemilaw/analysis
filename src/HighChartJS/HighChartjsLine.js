@@ -12,7 +12,7 @@ const HighChartjsLine = () => {
         // Here, you can modify the chart options and data as needed
         chart.update({
             chart: {
-                type: 'line', // set the chart type to pie
+                type: 'line', // set the chart type to line
             },
             title: {
                 text: 'Population'

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import jsonData from '../data.json'; // import your JSON file here
 
-const ChartjsLine = () => {
+const LineChart = () => {
   const chartRef = useRef(null);
   const chartInstanceRef = useRef(null); // keep a reference to the chart instance
 
@@ -52,4 +52,4 @@ const ChartjsLine = () => {
 )
 };
 
-export default ChartjsLine;
+export default LineChart;

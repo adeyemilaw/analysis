@@ -3,7 +3,7 @@ import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import jsonData from '../data.json'; // import your JSON file here
 
-const MyChart = () => {
+const HighChartBar = () => {
     const chartRef = useRef(null);
 
     useEffect(() => {
@@ -64,9 +64,6 @@ const MyChart = () => {
 
     return (
             <div className='m-3'>
-                <div className='text-center'>
-                    <h2>HighChartJS Chart for the Data</h2>
-                </div>
                 <div class="chart-container">
                     <HighchartsReact highcharts={Highcharts}
                         options={options}
@@ -76,4 +73,4 @@ const MyChart = () => {
     )
 };
 
-export default MyChart;
+export default HighChartBar;

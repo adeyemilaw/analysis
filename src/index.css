@@ -30,8 +30,15 @@
   height: 100px;
  }
 
- /* table, tr, td, th{
-  border: 1px solid tomato;
+
+ /* ==Footer ===== */
+ .footer-container {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  padding: 5px;
- } */
+  padding: 20px;
+}
+
+.footer-text {
+  margin: 0;
+}

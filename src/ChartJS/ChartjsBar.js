@@ -40,9 +40,6 @@ const BarChartJS = () => {
 
   return (
         <div className='my-3  p-3'>
-          <div className='text-center'>
-            <h2>ChartJS Chart for the Data</h2>
-          </div>
           <div class="chart-container">
             <canvas ref={chartRef}/>
         </div>
