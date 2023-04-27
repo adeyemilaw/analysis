@@ -44,7 +44,7 @@ function HighChartJS() {
             </Container>
             <div className='bg-white py-5 my-3'>
                 <div className='text-center text-info'>
-                    <h3>HighChartJS Questionaire</h3>
+                    <h3>HighChartJS Questionaire!</h3>
                 </div>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNt65M6fQkDSmHCm-Mwf2bgsnLIc8ei29xyYOoNW6Z9N9e7Q/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
