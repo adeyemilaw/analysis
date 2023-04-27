@@ -43,6 +43,9 @@ function ChartJS() {
                 </Row>
             </Container>
             <div className='bg-white py-5'>
+            <div className='text-center text-info'>
+                    <h3>ChartJS Questionaire</h3>
+                </div>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeplYGavJ12rk2pzVwIoUvWuJK4yTprKoK87ROkqTK7QimBOA/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
             <Footer/>
