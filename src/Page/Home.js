@@ -1,13 +1,9 @@
 import React from 'react'
-import GoogleForm from '../Component/GoogleForm'
-// import Tables from '../Component/DataTable'
+import HomePage from '../Component/HomePage'
 
 function Home() {
   return (
-    <div>
-      <GoogleForm />
-      {/* <Tables /> */}
-    </div>
+    <HomePage />
   )
 }
 
