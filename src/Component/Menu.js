@@ -15,7 +15,7 @@ export default function Menu() {
             <Nav.Link>
               {' '}
               <Link className="text-decoration-none text-white" to="/">
-                
+                Home
               </Link>
             </Nav.Link>
             <Nav.Link>
